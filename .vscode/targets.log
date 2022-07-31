@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 31 13:41:13 2022
+# Make data base, printed on Sun Jul 31 13:49:17 2022
 
 # Variables
 
@@ -30,7 +30,8 @@ CPPFLAGS =
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
 HOMEDRIVE = C:
-# automatic
+# aut 
+omatic
 @F = $(notdir $@)
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
@@ -57,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_CWD = D:\Code
+VSCODE_CWD = D:\Application\Microsoft VS Code
 # environment
 OPENCV_DIR = D:\Library\opencv\sources\build\install
 # environment
@@ -83,7 +84,7 @@ LDFLAGS =
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3012_PHHAPVEYHFHKESLX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16492_IFUOTJJAVUGYNSFE
 # environment
 COMPUTERNAME = DESKTOP-2FIJ3P8
 # environment
@@ -199,7 +200,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 3012
+VSCODE_PID = 16492
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-2FIJ3P8
 # variable set hash-table stats:
@@ -211,9 +212,9 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-2FIJ3P8
 
 # Directories
 
-# . (key d:/Code/Render, mtime 1659246064): 17 files, no impossibilities.
+# . (key d:/Code/Render, mtime 1659246075): 18 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -317,8 +318,7 @@ main.o: main.cpp
 
 tgaimage.o: tgaimage.cpp
 #  Implicit rule search has not been done.
-#  Implicit/s 
-tatic pattern stem: 'tgaimage'
+#  Implicit/static pattern stem: 'tgaimage'
 #  Last modified 2022-07-31 13:10:30
 #  File has been updated.
 #  Successfully updated.
@@ -342,12 +342,12 @@ model.o: model.cpp
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 199 B / avg = 7 B
-# current buf: size = 8162 B / used = 199 B / count = 26 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 204 B / avg = 7 B
+# current buf: size = 8162 B / used = 204 B / count = 27 / avg = 7 B
 
-# strcache performance: lookups = 49 / hit rate = 46%
+# strcache performance: lookups = 50 / hit rate = 46%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=1/49=2%
-# Finished Make data base on Sun Jul 31 13:41:13 2022
+# Load=27/8192=0%, Rehash=0, Collisions=1/50=2%
+# Finished Make data base on Sun Jul 31 13:49:17 2022
 
  
