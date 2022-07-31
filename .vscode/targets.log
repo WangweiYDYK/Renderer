@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 31 13:49:17 2022
+# Make data base, printed on Sun Jul 31 13:50:15 2022
 
 # Variables
 
@@ -30,8 +30,7 @@ CPPFLAGS =
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
 HOMEDRIVE = C:
-# aut 
-omatic
+# automatic
 @F = $(notdir $@)
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
@@ -58,7 +57,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_CWD = D:\Application\Microsoft VS Code
+VSCODE_CWD = D:\Code
 # environment
 OPENCV_DIR = D:\Library\opencv\sources\build\install
 # environment
@@ -84,7 +83,7 @@ LDFLAGS =
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16492_IFUOTJJAVUGYNSFE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10092_DOXEPYWFFHDJUMPK
 # environment
 COMPUTERNAME = DESKTOP-2FIJ3P8
 # environment
@@ -200,7 +199,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 16492
+VSCODE_PID = 10092
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-2FIJ3P8
 # variable set hash-table stats:
@@ -348,6 +347,6 @@ model.o: model.cpp
 # strcache performance: lookups = 50 / hit rate = 46%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=1/50=2%
-# Finished Make data base on Sun Jul 31 13:49:17 2022
+# Finished Make data base on Sun Jul 31 13:50:15 2022
 
  
