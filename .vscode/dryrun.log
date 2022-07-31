@@ -1,8 +1,0 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-make.exe: Entering directory 'd:/Code/Render'
-g++ -Wall  -c  main.cpp -o main.o
-g++ -Wall  -c  model.cpp -o model.o
-g++ -Wall  -c  tgaimage.cpp -o tgaimage.o
-g++ -Wall  -o ./main main.o model.o tgaimage.o -lm
-make.exe: Leaving directory 'd:/Code/Render'
- 
