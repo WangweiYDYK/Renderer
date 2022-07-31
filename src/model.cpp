@@ -3,7 +3,9 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+
 #include "model.h"
+
 
 Model::Model(const char *filename) : verts_(), faces_() {
     std::ifstream in;
@@ -51,4 +53,3 @@ std::vector<int> Model::face(int idx) {
 Vec3f Model::vert(int i) {
     return verts_[i];
 }
-
