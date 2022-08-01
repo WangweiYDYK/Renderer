@@ -75,7 +75,7 @@ void triangle(Vec2i *s_coords, Vec3f *w_coords, TGAImage &image, TGAColor color,
             Vec2f p(i, j);
             if (intriangle(s_coords, p)) {
                 float w_i = (i - .5) * 2 / width - 1., w_j = (j - .5) * 2 / width - 1.;
-                auto [alpha, beta, gamma] = computeBarycentric(w_coords, w_i + .5, w_j + .5);
+                auto [alpha, beta, gamma] = computeBarycentric(w_coords, w_i, w_j);
                 float z = alpha * w_coords[0].z + beta* w_coords[1].z + gamma * w_coords[2].z;
                 if (z > zbuffer[i + j * width]) {
                     zbuffer[i + j * width] = z;
