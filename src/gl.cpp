@@ -19,6 +19,7 @@ void viewport(int x, int y, int w, int h) {
     Viewport[2][2] = 255.f/2.f;
 }
 
+
 void projection(float coeff) {
     Projection = Matrix::identity();
     Projection[3][2] = coeff;
