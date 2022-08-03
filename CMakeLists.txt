@@ -11,4 +11,4 @@ set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
 include_directories(include)
 
-add_executable(renderer src/main.cpp src/model.cpp src/tgaimage.cpp)
+add_executable(renderer src/main.cpp src/model.cpp src/tgaimage.cpp src/geometry.cpp src/gl.cpp)
