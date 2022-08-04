@@ -26,14 +26,14 @@ const int height = 800;
 struct GouraudShader : public IShader{
     Vec3f varying_intensity;
 
-    virtual Vec4f vertex(int iface, int nthvert){
+    Vec4f vertex(int iface, int nthvert) override {
         Vec4f gl_Vertex = embed<4>(model->vert(iface, nthvert)); // read the vertex from .obj file
         gl_Vertex = Viewport*Projection*ModelView*gl_Vertex;     // transform it to screen coordinates
         varying_intensity[nthvert] = std::max(0.f, model->normal(iface, nthvert)*light_dir); // get diffuse lighting intensity
-        return gl_Vertex;   
+        return gl_Vertex;
     }
 
-    virtual bool fragment(Vec3f bar, TGAColor &color){
+    bool fragment(Vec3f bar, TGAColor &color) override {
         float intensity = varying_intensity*bar;
         color = TGAColor(intensity*255, intensity*255, intensity*255, 255);
         return false;
