@@ -7,8 +7,6 @@ Matrix ModelView;
 Matrix Viewport;
 Matrix Projection;
 
-IShader::~IShader() {}
-
 void viewport(int x, int y, int w, int h) {
     Viewport = Matrix::identity();
     Viewport[0][3] = x+w/2.f;
